@@ -1,0 +1,22 @@
+.header {
+   height: 110px;
+   .navbar {
+      background: $white;
+      padding-top: 40px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 10000;
+      a {
+         color: $blue;
+         text-transform: uppercase;
+         font-weight: 700;
+      }
+   }
+}
+
+@media (max-width: 992px) {
+   .navbar-brand {
+      display: none;
+   }
+}

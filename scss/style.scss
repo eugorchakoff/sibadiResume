@@ -1,0 +1,13 @@
+@import '_nullstyle';
+@import '_var';
+@import '_header';
+@import '_auth';
+@import '_resumes';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+   background-color: $white;
+   font-family: 'Rubik';
+   font-size: 14px;
+}

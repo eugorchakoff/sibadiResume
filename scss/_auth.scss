@@ -1,0 +1,43 @@
+.auth {
+   background-color: #0c71b90e;
+   height: 835px;
+   h1 {
+      color: $blue;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 100px;
+   }
+   .auth-form {
+      margin-top: 100px;
+      padding-top: 80px;
+      height: 490px;
+      width: 420px;
+      border-radius: 14px;
+      background-color: $white;
+      h2 {
+         font-size: 20px;
+         font-weight: 500;
+         margin-bottom: 20px;
+      }
+      .btn {
+         background-color: $blue;
+         color: $white;
+         &:hover {
+            background-color: $white;
+            color: $blue;
+         }
+      }
+      a {
+         margin-top: 10px;
+         color: $blue;
+         opacity: .7;
+      }
+      .form-control {
+         max-width: 280px;
+         margin: 0 auto;
+      }
+      .form-check-label {
+         padding-left: 5px;
+      }
+   }
+}
